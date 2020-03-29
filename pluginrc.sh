@@ -1,4 +1,4 @@
-CURR_DIR="$(cd "$(dirname "$0")" && pwd)"
+CURR_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 plugin_name='xxh-plugin-bash-ohmybash'
 
 if [[ -v OSH_THEME ]]; then
@@ -46,4 +46,6 @@ else
 fi
 
 export OSH=$CURR_DIR/oh-my-bash
+DISABLE_UPDATE_PROMPT=true
+DISABLE_AUTO_UPDATE=true
 source $OSH/oh-my-bash.sh
