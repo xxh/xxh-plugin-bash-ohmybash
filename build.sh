@@ -19,7 +19,7 @@ do
     cp $CDIR/$f $build_dir/
 done
 
-cd $build_dir
+cd $build_dircc
 url='git://github.com/ohmybash/oh-my-bash.git'
 home_dir=oh-my-bash
 
