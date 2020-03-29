@@ -18,7 +18,7 @@ if [[ -v plugins ]]; then
   fi
 else
   if [[ $XXH_VERBOSE == '2' ]]; then
-    echo $plugin_name: Set default plugins=(git bashmarks)
+    echo $plugin_name: 'Set default plugins=(git bashmarks)'
   fi
   export plugins=(git bashmarks)
 fi
@@ -29,7 +29,7 @@ if [[ -v aliases ]]; then
   fi
 else
   if [[ $XXH_VERBOSE == '2' ]]; then
-    echo $plugin_name: Set default aliases=(general)
+    echo $plugin_name: 'Set default aliases=(general)'
   fi
   export aliases=(general)
 fi
@@ -40,7 +40,7 @@ if [[ -v completions ]]; then
   fi
 else
   if [[ $XXH_VERBOSE == '2' ]]; then
-    echo $plugin_name: Set default completions=(git composer ssh)
+    echo $plugin_name: 'Set default completions=(git composer ssh)'
   fi
   export completions=(git composer ssh)
 fi
