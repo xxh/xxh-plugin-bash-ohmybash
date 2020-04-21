@@ -4,7 +4,7 @@
 From xxh repo:
 ```
 xxh +I xxh-plugin-bash-ohmybash
-xxh yourhost +s bash-zero +if
+xxh yourhost +s bash +if
 ```
 From any repo:
 ```
@@ -12,5 +12,5 @@ xxh +I xxh-plugin-bash-ohmybash+git+https://github.com/xxh/xxh-plugin-bash-ohmyb
 ```    
 Connect:
 ``````
-xxh yourhost +s bash-zero +if
+xxh yourhost +s bash +if
 ```
