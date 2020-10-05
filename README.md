@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://github.com/ohmybash/oh-my-bash">Oh My Bash</a> plugin for bash xxh-shell. 
+<a href="https://github.com/ohmybash/oh-my-bash">Oh My Bash</a> plugin for <a href="https://github.com/xxh/xxh-shell-bash">xxh-shell-bash</a>. 
 </p>
 
 <p align="center">  
