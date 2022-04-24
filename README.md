@@ -21,7 +21,7 @@ Connect:
 xxh yourhost +s bash +if
 ```
 
-The default theme used is agnoster. To update set the environmental variable `OSH_THEME` to your desired theme in the XXH config filg located at `~/.config/xxh/config.xxhc`
+The default theme used is agnoster. To change the theme, set the environmental variable `OSH_THEME` to your desired theme in the XXH config file located at `~/.config/xxh/config.xxhc`
 
 Example:
 ```YAML
