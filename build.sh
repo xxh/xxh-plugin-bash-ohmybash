@@ -22,7 +22,7 @@ do
 done
 
 cd $build_dir
-url='git://github.com/ohmybash/oh-my-bash.git'
+url='https://github.com/ohmybash/oh-my-bash.git'
 home_dir=oh-my-bash
 
 [ $QUIET ] && arg_q='-q' || arg_q=''
